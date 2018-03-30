@@ -45,7 +45,9 @@ It is also possible to use the Web Font Loader asynchronously. For example, to l
 ```html
 <script>
    WebFontConfig = {
-      typekit: { id: 'xxxxxx' }
+      google: {
+      families: ['Open Sans Condensed:300,700']
+    }
    };
 
    (function(d) {
